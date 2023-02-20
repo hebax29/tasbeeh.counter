@@ -1,0 +1,71 @@
+
+
+
+
+.tasbeeh-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #b6868c54;
+    max-width: 400px;
+  margin-top: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .counter {
+    font-size: 48px;
+    font-weight: bold;
+  margin-top: 20px;
+  }
+
+.button{
+    margin-top: 20px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover{
+    background-color: #67819c;
+}
+
+
+.increment{
+    background-color: #6689af4d;
+}
+
+.reset{
+    background-color: #aa787d;
+}
+
+.increment:hover{
+    background-color: black;
+}
+
+.reset:hover{
+    background-color: rgb(38, 63, 85);
+}
+
+@media screen and (max-width: 480px) {
+    #count {
+      font-size: 2.5rem;
+    }
+}
+
+
+footer{
+    text-align: center;
+    font-size: 7px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gray;
+    margin-top: 10px;
+}
+
+
